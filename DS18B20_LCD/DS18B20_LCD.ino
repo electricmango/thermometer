@@ -19,7 +19,7 @@
 
   The MIT License (MIT)
 
-  Copyright (c) 2013 ~ 2014 Electricmango (망고)
+  Copyright (c) 2013 ~ 2015 electricmango
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -43,6 +43,9 @@
   
   version notes
   
+  1.0.2
+    - license and useless stuff changes.
+    
   1.0.1
     - the code is now on GitHub (but removed from GitHub Gist):
       https://github.com/electricmango/Thermometer under the MIT license!
@@ -74,6 +77,7 @@
     Bildr.org for the serial code
     http://www.arduino.cc/en/Tutorial/Switch for mode selecting code
 */
+
 #include <OneWire.h>
 #include <LiquidCrystal.h>
 

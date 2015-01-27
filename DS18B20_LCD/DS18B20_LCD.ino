@@ -1,5 +1,5 @@
 /*Arduino Thermometer
-      by Electricmango (망고)
+      by electricmango
   http://electricmango.github.io
       based on the work of bildr.org
             from http://bildr.org/2011/07/ds18b20-arduino
@@ -14,68 +14,6 @@
 
   YouTube video:
   http://youtu.be/68qfwJzcAPI
-
-  ----------------
-
-  The MIT License (MIT)
-
-  Copyright (c) 2013 ~ 2015 electricmango
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-  
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-  
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-  THE SOFTWARE.
-  
-  ----------------
-  
-  version notes
-  
-  1.0.2
-    - license and useless stuff changes.
-    
-  1.0.1
-    - the code is now on GitHub (but removed from GitHub Gist):
-      https://github.com/electricmango/Thermometer under the MIT license!
-      However, there won't be any updates from me for a while for this code
-      because I fried my DS18B20 sensor.
-    
-  1.0.0
-    - Released to Github Gist. 
-  0.4.b0
-    - Select mode (Celcius, Farenheit or C, F)
-  0.3.b0
-   - Farenheit support
-   
-  0.2.a1
-   - Spaces for better look
-   
-  0.2.a0
-   - User friendly debug mode
-   
-  0.1.a1
-   - Added degree mark
-   - Better debug mode
-   
-  0.1.0
-   - Thanks to bildr.org for the DS18S20 code
-   - Added lcd compatibility to the DS18S20 code
-   
-  Thanks to 
-    Bildr.org for the serial code
-    http://www.arduino.cc/en/Tutorial/Switch for mode selecting code
 */
 
 #include <OneWire.h>
